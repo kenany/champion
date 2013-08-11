@@ -17,7 +17,7 @@
   "directories": {
     "test": "./test"
   },
-  "repository": "https://github.com/KenanY/champion.git",
+  "repository": "git://github.com/KenanY/champion.git",
   "scripts": {
     "test": "tape test/*.js"
   },
