@@ -1,0 +1,40 @@
+{
+  "name": "champion",
+  "version": "1.0.0",
+  "description": "Get a League of Legends champion from their key.",
+  "keywords": [],
+  "homepage": "https://github.com/KenanY/champion",
+  "bugs": {
+    "url": "https://github.com/KenanY/champion/issues"
+  },
+  "author": {
+    "name": "Kenan Yildirim",
+    "email": "kenan@kenany.me",
+    "web": "http://kenany.me/"
+  },
+  "main": "./index.js",
+  "directories": {
+    "test": "./test"
+  },
+  "repository": "https://github.com/KenanY/champion.git",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "devDependencies": {
+    "browserify": "~2.26.0",
+    "tape": "~1.0.4"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "firefox/3..latest",
+      "chrome/4..latest",
+      "opera/10..latest",
+      "safari/4..latest",
+      "ipad/6",
+      "iphone/6.0",
+      "android-browser/4.2"
+    ]
+  }
+}
