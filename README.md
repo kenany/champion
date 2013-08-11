@@ -32,6 +32,14 @@ $ npm install champion
 Look up a champion using a _Number_ `key` and call `callback(error, champ)`
 where `champ` is an _Object_.
 
+## The array
+
+Yeah, it's huge, but the current method is better than using `fs` or `http`.
+
+If a new champion hasn't been added to the array yet, feel free to open a pull
+request. In the future, I might move the array to its own module so that others
+can use it in their modules.
+
 ## Lessons learned
 
 Originally, this module used `fs.createReadStream` in order to load a JSON file
