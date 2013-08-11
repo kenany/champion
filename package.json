@@ -30,12 +30,16 @@
     "files": "test/*.js",
     "browsers": [
       "ie/6..latest",
-      "firefox/3..latest",
-      "chrome/4..latest",
-      "opera/10..latest",
-      "safari/4..latest",
+      "firefox/3",
+      "firefox/latest",
+      "chrome/4",
+      "chrome/latest",
+      "opera/10",
+      "opera/latest",
+      "safari/4",
+      "safari/latest",
       "ipad/6",
-      "iphone/6.0",
+      "iphone/6",
       "android-browser/4.2"
     ]
   }
