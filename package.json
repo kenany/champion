@@ -21,7 +21,6 @@
     "test": "tape test/*.js"
   },
   "devDependencies": {
-    "browserify": "~2.26.0",
     "tape": "~1.0.4"
   },
   "testling": {
