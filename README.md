@@ -23,7 +23,12 @@ champion(117, function(error, champ) {
 $ npm install champion
 ```
 
-[Browserify](https://github.com/substack/node-browserify) for the browser.
+[Browserify](https://github.com/substack/node-browserify) for the browser or use
+[Component](https://github.com/component/component):
+
+``` bash
+$ component install KenanY/champion
+```
 
 ## API
 
