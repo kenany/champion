@@ -2,7 +2,9 @@
   "name": "champion",
   "version": "1.0.0",
   "description": "Get a League of Legends champion from their key.",
-  "keywords": [],
+  "keywords": [
+    "league-of-legends"
+  ],
   "homepage": "https://github.com/KenanY/champion",
   "bugs": {
     "url": "https://github.com/KenanY/champion/issues"
