@@ -2,7 +2,7 @@
   "name": "champion",
   "repo": "KenanY/champion",
   "description": "Get a League of Legends champion from their key.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "league-of-legends"
   ],
