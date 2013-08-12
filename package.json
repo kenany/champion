@@ -21,7 +21,7 @@
   },
   "repository": "git://github.com/KenanY/champion.git",
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/index.js"
   },
   "devDependencies": {
     "tape": "~1.0.4"
