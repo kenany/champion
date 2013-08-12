@@ -48,7 +48,7 @@ can use it in their modules.
 ## Lessons learned
 
 Originally, this module used `fs.createReadStream` in order to load a JSON file
-of champions. This `ReadStrean` was then piped to
+of champions. This `ReadStream` was then piped to
 [JSONStream](https://github.com/dominictarr/JSONStream), but this caused
 problems because of a
 [known issue](https://github.com/creationix/jsonparse/issues/2) involving
