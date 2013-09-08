@@ -17,6 +17,25 @@ champion(117, function(error, champ) {
 });
 ```
 
+You would probably use this with
+[node-resteemo](https://github.com/KenanY/node-resteemo):
+
+``` javascript
+var resteemo = require('resteemo')('string with contact info');
+
+resteemo.player.ingame('na', 'king trick', function(error, response) {
+  if (error) throw error;
+
+  var championID = response.data.game.playerChampionSelections.array[0].championId;
+
+  champion(championID, function(error, champ) {
+    if (error) throw error;
+
+    // now you know the champion that 'king trick' is playing
+  });
+});
+```
+
 ## Installation
 
 ``` bash
