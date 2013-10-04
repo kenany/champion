@@ -10,11 +10,15 @@ Get a League of Legends champion from their key.
 ``` javascript
 var champion = require('champion');
 
-champion(117, function(error, champ) {
-  if (error) throw error;
-
-  console.log(champ);
-});
+champion(117);
+// => {
+// =>   "version": "3.10.3",
+// =>   "id": "Lulu",
+// =>   "key": "117",
+// =>   "name": "Lulu",
+// =>   "title": "the Fae Sorceress",
+// =>   /* etc, etc. */
+// => }
 ```
 
 You would probably use this with
@@ -28,11 +32,8 @@ resteemo.player.ingame('na', 'king trick', function(error, response) {
 
   var championID = response.data.game.playerChampionSelections.array[0].championId;
 
-  champion(championID, function(error, champ) {
-    if (error) throw error;
-
-    // now you know the champion that 'king trick' is playing
-  });
+  champion(championID);
+  // Now you know the champion that 'king trick' is playing.
 });
 ```
 
@@ -51,10 +52,11 @@ $ component install KenanY/champion
 
 ## API
 
-### champion(key, callback)
+### champion(key)
 
-Look up a champion using a _Number_ `key` and call `callback(error, champ)`
-where `champ` is an _Object_.
+Look up a champion using a _Number_ `key` and return an _Object_ containing
+metadata on the champion. If `key` does not match that of any champion, `null`
+is returned.
 
 ## The array
 

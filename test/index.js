@@ -54,13 +54,6 @@ var LULU = {
 test('champion', function(t) {
   t.plan(2);
 
-  champion(117, function(error, champ) {
-    if (error) throw error;
-    t.deepEqual(champ, LULU, 'Should return correct champion.');
-  });
-
-  champion(0, function(error, champ) {
-    if (error) return t.pass('Returns error when champion not found.');
-    t.fail('Did not return error when champion was not found.');
-  });
+  t.deepEqual(champion(117), LULU, 'Should return correct champion.');
+  t.equal(champion(0), null, 'Should return `null` when no champion is found.');
 });
