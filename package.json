@@ -5,21 +5,18 @@
   "keywords": [
     "league-of-legends"
   ],
-  "homepage": "https://github.com/KenanY/champion",
-  "bugs": {
-    "url": "https://github.com/KenanY/champion/issues"
-  },
+  "repository": "KenanY/birth-by-age-at-date",
   "license": "MIT",
-  "author": {
-    "name": "Kenan Yildirim",
-    "email": "kenan@kenany.me",
-    "web": "http://kenany.me/"
-  },
-  "main": "./index.js",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "lib/champions.js",
+    "index.js",
+    "LICENSE.txt"
+  ],
   "directories": {
-    "test": "./test"
+    "test": "test"
   },
-  "repository": "git://github.com/KenanY/champion.git",
   "scripts": {
     "test": "tape test/index.js"
   },
