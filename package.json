@@ -5,7 +5,7 @@
   "keywords": [
     "league-of-legends"
   ],
-  "repository": "KenanY/birth-by-age-at-date",
+  "repository": "KenanY/champion",
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
   "main": "index.js",
