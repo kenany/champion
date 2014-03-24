@@ -2,7 +2,7 @@
 
 Get a League of Legends champion from their key.
 
-[![Build Status](https://travis-ci.org/KenanY/champion.png)](https://travis-ci.org/KenanY/champion)
+[![Build Status](https://travis-ci.org/KenanY/champion.svg?branch=master)](https://travis-ci.org/KenanY/champion)
 [![Testling Badge](https://ci.testling.com/KenanY/champion.png)](https://ci.testling.com/KenanY/champion)
 
 ## Example
