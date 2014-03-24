@@ -52,6 +52,10 @@ $ component install KenanY/champion
 
 ## API
 
+``` javascript
+var champion = require('champion');
+```
+
 ### champion(key)
 
 Look up a champion using a _Number_ `key` and return an _Object_ containing
