@@ -1,15 +1,15 @@
 {
   "name": "champion",
-  "repo": "KenanY/champion",
-  "description": "Get a League of Legends champion from their key.",
   "version": "1.0.1",
+  "description": "Get a League of Legends champion from their key.",
   "keywords": [
     "league-of-legends"
   ],
+  "repo": "KenanY/champion",
+  "license": "MIT",
   "main": "index.js",
   "scripts": [
     "index.js",
     "lib/champions.js"
-  ],
-  "license": "MIT"
+  ]
 }
